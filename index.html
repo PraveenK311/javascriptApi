@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+     <title>Movie App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="form-control">IMDB</h1>
+      <form>
+        <div class="form-group">
+         <label for="movie">Movie name</label> 
+          <input
+            type="text"
+            class="form-control"
+            id="Movie"
+            aria-describedby="emailHelp"
+            placeholder="Search..."
+          />
+        </div>
+
+        <button type="submit" class="btn btn-danger btn-block" id="search">
+          Search a movie
+        </button>
+      </form>
+ <div id ="result"></div>
+      <br>
+  <img src="https://images-na.ssl-images-amazon.com/images/G/02/shazam/EXPA-S4-01671-DigitalROSStatic-ARSDE-970x250-ADSP-02-POST-260da284-cf9e-4ba0-baaa-8f4394417720.JPG" alt="Girl in a jacket">
+    <h5>Enjoy Unlimited Streaming on Prime vedio
+  <a href="https://www.amazon.com/gp/redirect.html?location=https://www.primevideo.com/ref=dvm_CRS_IMD_promobar&token=5AA88DFA9D67585B16D08920442C28AB49C39F2B&source=standards">
+    Thousands of titles available to watch instantly 
+  </a>
+</h5>
+<div id="quicklinksMainSection">
+         <a href="https://www.imdb.com/title/tt0120737/fullcredits?ref_=tt_ql_1" class="quicklink">FULL CAST AND CREW</a> 
+         <span class="ghost">|</span>
+         <a href="https://www.imdb.com/title/tt0120737/trivia?ref_=tt_ql_2" class="quicklink">TRIVIA</a>
+          <span class="ghost">|</span>
+         <a href="https://www.imdb.com/title/tt0120737/reviews?ref_=tt_ql_3" class="quicklink">USER REVIEWS</a>
+          <span class="ghost">|</span>
+         <a href="https://pro.imdb.com/title/tt0120737?rf=cons_tt_contact&ref_=cons_tt_contact" class="quicklink">IMDbPro</a>
+         <span class="ghost">|</span>
+         <span class="show_more quicklink">MORE<span class="titleOverviewSprite quicklinksArrowUp"></span>
+        </span>
+        <span class="show_less quicklink" style="display:none">
+           LESS<span class="titleOverviewSprite quicklinksArrowDown"></span>
+        </span>
+  </div>
+      <h1 class="long">Spiderman movie </h1>
+       <div id="movies-searchable"></div>
+      <div id="movies-container"></div>
+  </div>
+
+      <div id="movies-searchable"></div>
+      <div id="movies-container"></div>
+    </div>
+
+    <script src="apiTransaction.js"></script>
+    <script src="app.js"></script>
+    <div style="Font size:24px;">
+   <ul>
+  <li> <i class="fa fa-facebook-official-3x" aria-hidden="true"></i></li>
+    <li> <i class="fa fa-instagram-3x" aria-hidden="true"></i></li>
+   <li> <i class="fa fa-github-3x" aria-hidden="true"></i></li>
+   <li>  <i class="fa fa-twitch-3x" aria-hidden="true"></i></li>
+   <li> <i class="fa fa-eye-3x" aria-hidden="true"></i></li>
+   <li>  <i class="fa fa-info-3x"></i></li>
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i></li>
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i> </li> 
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i>  </li>  
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i></li>
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i></li>
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i></li>
+    <li> <i class="fa fa-info-3x" aria-hidden="true"></i></li>
+
+   </ul>
+
+   </div>
+  </body>
+</html>
